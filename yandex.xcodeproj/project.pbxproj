@@ -13,6 +13,7 @@
 		E411FB1925EFC12300CE9C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E411FB1725EFC12300CE9C5D /* Main.storyboard */; };
 		E411FB1B25EFC12300CE9C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E411FB1A25EFC12300CE9C5D /* Assets.xcassets */; };
 		E411FB1E25EFC12300CE9C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E411FB1C25EFC12300CE9C5D /* LaunchScreen.storyboard */; };
+		E411FB2925EFC5E800CE9C5D /* CompanyShortInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E411FB2825EFC5E800CE9C5D /* CompanyShortInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E411FB1A25EFC12300CE9C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E411FB1D25EFC12300CE9C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E411FB1F25EFC12300CE9C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E411FB2825EFC5E800CE9C5D /* CompanyShortInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyShortInfoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E411FB1025EFC12300CE9C5D /* yandex */ = {
 			isa = PBXGroup;
 			children = (
+				E411FB2725EFC57800CE9C5D /* Models */,
 				E411FB1125EFC12300CE9C5D /* AppDelegate.swift */,
 				E411FB1325EFC12300CE9C5D /* SceneDelegate.swift */,
 				E411FB1525EFC12300CE9C5D /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				E411FB1F25EFC12300CE9C5D /* Info.plist */,
 			);
 			path = yandex;
+			sourceTree = "<group>";
+		};
+		E411FB2725EFC57800CE9C5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E411FB2825EFC5E800CE9C5D /* CompanyShortInfoModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				E411FB1625EFC12300CE9C5D /* ViewController.swift in Sources */,
 				E411FB1225EFC12300CE9C5D /* AppDelegate.swift in Sources */,
+				E411FB2925EFC5E800CE9C5D /* CompanyShortInfoModel.swift in Sources */,
 				E411FB1425EFC12300CE9C5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
